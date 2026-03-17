@@ -395,3 +395,43 @@ northing = "95492"
 [location.navaids]
 adf = "570.00"
 fm = "54.90"
+
+# FARP Specter
+
+[[location]]
+type = "farp"
+name = "FARP Specter"
+elevation_feet = "7973"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 13, seconds = 25 }
+longitude = { direction = "E", degrees = 63, minutes = 42, seconds = 37 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NT"
+easting = "65442"
+northing = "87185"
+
+# FARP Warsaw
+
+[[location]]
+type = "farp"
+name = "FARP Warsaw"
+elevation_feet = "7662"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 51, seconds = 13 }
+longitude = { direction = "E", degrees = 63, minutes = 29, seconds = 33 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NT"
+easting = "45560"
+northing = "46052"
+
+[location.navaids]
+adf = "590.00"
+fm = "53.50"
