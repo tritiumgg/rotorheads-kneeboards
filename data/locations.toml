@@ -130,7 +130,6 @@ fm = "74.20"
 [[location]]
 type = "farp"
 name = "FARP Hydra"
-callsign = "Charlie"
 elevation_feet = "3735"
 
 [location.coordinates.dms]
@@ -170,27 +169,25 @@ northing = "98505"
 adf = "450.00"
 fm = "61.80"
 
-# FARP Puma
-
 [[location]]
 type = "farp"
-name = "FARP Puma"
-elevation_feet = "2623"
+name = "FARP Perth"
+elevation_feet = "3941"
 
 [location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 40, seconds = 54 }
-longitude = { direction = "E", degrees = 61, minutes = 5, seconds = 37 }
+latitude = { direction = "N", degrees = 33, minutes = 6, seconds = 44 }
+longitude = { direction = "E", degrees = 62, minutes = 30, seconds = 40 }
 
 [location.coordinates.mgrs]
 zone_number = "41"
 zone_band = "S"
-grid = "LT"
-easting = "23289"
-northing = "28509"
+grid = "MS"
+easting = "54404"
+northing = "63851"
 
 [location.navaids]
-adf = "780.00"
-fm = "42.70"
+adf = "290.00"
+fm = "75.30"
 
 # Qala i Naw
 
