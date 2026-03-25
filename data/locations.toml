@@ -3,7 +3,6 @@
 [[location]]
 type = "farp"
 name = "FARP Bandit"
-callsign = "Bravo"
 elevation_feet = "4290"
 
 [location.coordinates.dms]
@@ -377,6 +376,7 @@ fm = "54.90"
 [[location]]
 type = "farp"
 name = "FARP Warsaw"
+callsign = "Bravo"
 elevation_feet = "7662"
 
 [location.coordinates.dms]
