@@ -147,6 +147,28 @@ northing = "98389"
 adf = "900.00"
 fm = "43.90"
 
+# FARP Inferno
+
+[[location]]
+type = "farp"
+name = "FARP Inferno"
+elevation_feet = "2817"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 57, seconds = 15 }
+longitude = { direction = "E", degrees = 61, minutes = 7, seconds = 59 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "LS"
+easting = "25506"
+northing = "47778"
+
+[location.navaids]
+adf = "300.00"
+fm = "73.20"
+
 # FARP Nomad
 
 [[location]]
