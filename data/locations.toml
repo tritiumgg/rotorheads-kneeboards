@@ -1,24 +1,24 @@
-# FARP Bandit
+# FARP Condor
 
 [[location]]
 type = "farp"
-name = "FARP Bandit"
-elevation_feet = "4290"
+name = "FARP Condor"
+elevation_feet = "2265"
 
 [location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 41, seconds = 57 }
-longitude = { direction = "E", degrees = 61, minutes = 55, seconds = 24 }
+latitude = { direction = "N", degrees = 32, minutes = 27, seconds = 29 }
+longitude = { direction = "E", degrees = 61, minutes = 19, seconds = 47 }
 
 [location.coordinates.mgrs]
 zone_number = "41"
 zone_band = "S"
-grid = "MT"
-easting = "00226"
-northing = "29335"
+grid = "LR"
+easting = "43023"
+northing = "92451"
 
 [location.navaids]
-adf = "490.00"
-fm = "34.10"
+adf = "200.00"
+fm = "71.90"
 
 # FARP Gladius
 
@@ -124,50 +124,6 @@ northing = "84831"
 adf = "1250.00"
 fm = "74.20"
 
-# FARP Hydra
-
-[[location]]
-type = "farp"
-name = "FARP Hydra"
-elevation_feet = "3735"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 25, seconds = 19 }
-longitude = { direction = "E", degrees = 62, minutes = 9, seconds = 54 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "MS"
-easting = "22384"
-northing = "98389"
-
-[location.navaids]
-adf = "900.00"
-fm = "43.90"
-
-# FARP Inferno
-
-[[location]]
-type = "farp"
-name = "FARP Inferno"
-elevation_feet = "2817"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 32, minutes = 57, seconds = 15 }
-longitude = { direction = "E", degrees = 61, minutes = 7, seconds = 59 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "LS"
-easting = "25506"
-northing = "47778"
-
-[location.navaids]
-adf = "300.00"
-fm = "73.20"
-
 # FARP Nomad
 
 [[location]]
@@ -193,6 +149,7 @@ fm = "61.80"
 [[location]]
 type = "farp"
 name = "FARP Perth"
+callsign = "Bravo"
 elevation_feet = "3941"
 
 [location.coordinates.dms]
@@ -376,7 +333,6 @@ fm = "54.90"
 [[location]]
 type = "farp"
 name = "FARP Warsaw"
-callsign = "Bravo"
 elevation_feet = "7662"
 
 [location.coordinates.dms]
