@@ -349,3 +349,47 @@ northing = "46052"
 [location.navaids]
 adf = "590.00"
 fm = "53.50"
+
+# FARP Tikrit
+
+[[location]]
+type = "farp"
+name = "FARP Tikrit"
+elevation_feet = "2862"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 28, seconds = 36 }
+longitude = { direction = "E", degrees = 62, minutes = 30, seconds = 49 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MR"
+easting = "54319"
+northing = "93391"
+
+[location.navaids]
+adf = "640.00"
+fm = "71.00"
+
+# FARP 
+
+[[location]]
+type = "farp"
+name = "FARP Outlaw"
+elevation_feet = "4226"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 04, seconds = 08 }
+longitude = { direction = "E", degrees = 63, minutes = 00, seconds = 52 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NS"
+easting = "01355"
+northing = "58924"
+
+[location.navaids]
+adf = "360.00"
+fm = "63.70"
