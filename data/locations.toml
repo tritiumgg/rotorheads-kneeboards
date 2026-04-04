@@ -20,28 +20,6 @@ northing = "79941"
 adf = "810.00"
 fm = "74.80"
 
-# FARP Hawk
-
-[[location]]
-type = "farp"
-name = "FARP Hawk"
-elevation_feet = "3686"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 4, seconds = 21 }
-longitude = { direction = "E", degrees = 61, minutes = 58, seconds = 51 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "MS"
-easting = "04894"
-northing = "59810"
-
-[location.navaids]
-adf = "250.00"
-fm = "71.30"
-
 # Herat
 
 [[location]]
