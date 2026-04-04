@@ -358,8 +358,8 @@ name = "FARP Outlaw"
 elevation_feet = "4226"
 
 [location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 04, seconds = 08 }
-longitude = { direction = "E", degrees = 63, minutes = 00, seconds = 52 }
+latitude = { direction = "N", degrees = 33, minutes = 4, seconds = 8 }
+longitude = { direction = "E", degrees = 63, minutes = 0, seconds = 52 }
 
 [location.coordinates.mgrs]
 zone_number = "41"
