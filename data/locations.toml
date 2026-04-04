@@ -344,3 +344,25 @@ elevation_feet = "2240"
 length_feet = "6990"
 primary = { name = "33", heading = "328" }
 secondary = { name = "15", heading = "148" }
+
+# FARP Centurion
+
+[[location]]
+type = "farp"
+name = "Centurion"
+elevation_feet = "2384"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 15, seconds = 4 }
+longitude = { direction = "E", degrees = 62, minutes = 15, seconds = 53 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MR"
+easting = "30756"
+northing = "68516"
+
+[location.navaids]
+adf = "400.00"
+fm = "34.40"
