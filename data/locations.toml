@@ -345,3 +345,27 @@ northing = "68516"
 [location.navaids]
 adf = "400.00"
 fm = "34.40"
+
+# FARP Thunder
+
+[[location]]
+type = "farp"
+callsign = "Bravo"
+name = "Thunder"
+elevation_feet = "4662"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 22, seconds = 2 }
+longitude = { direction = "E", degrees = 63, minutes = 22, seconds = 17 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NU"
+easting = "34157"
+northing = "02951"
+
+[location.navaids]
+adf = "530.00"
+fm = "43.40"
+
