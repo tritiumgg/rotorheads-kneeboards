@@ -139,28 +139,6 @@ length_feet = "6114"
 primary = { name = "04", heading = "037" }
 secondary = { name = "22", heading = "217" }
 
-# FARP Rome
-
-[[location]]
-type = "farp"
-name = "Rome"
-elevation_feet = "3819"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 34, minutes = 14, seconds = 21 }
-longitude = { direction = "E", degrees = 62, minutes = 54, seconds = 49 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "MT"
-easting = "92067"
-northing = "88700"
-
-[location.navaids]
-adf = "390.00"
-fm = "64.50"
-
 # Shindand
 
 [[location]]
@@ -345,3 +323,27 @@ northing = "68516"
 [location.navaids]
 adf = "400.00"
 fm = "34.40"
+
+# FARP Thunder
+
+[[location]]
+type = "farp"
+callsign = "Bravo"
+name = "Thunder"
+elevation_feet = "4662"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 22, seconds = 2 }
+longitude = { direction = "E", degrees = 63, minutes = 22, seconds = 17 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NU"
+easting = "34157"
+northing = "02951"
+
+[location.navaids]
+adf = "530.00"
+fm = "43.40"
+
