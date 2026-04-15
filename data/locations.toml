@@ -325,3 +325,25 @@ northing = "68516"
 adf = "400.00"
 fm = "34.40"
 
+# FARP 30TONFUEL
+
+[[location]]
+type = "farp"
+name = "30TONFUEL"
+elevation_feet = "5338"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 20, seconds = 52 }
+longitude = { direction = "E", degrees = 64, minutes = 1, seconds = 53 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NU"
+easting = "94868"
+northing = "01209"
+
+[location.navaids]
+adf = "560.00"
+fm = "32.10"
+
