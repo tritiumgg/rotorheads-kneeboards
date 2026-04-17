@@ -325,25 +325,25 @@ northing = "68516"
 adf = "400.00"
 fm = "34.40"
 
-# FARP Thunder
+# FARP 30TONFUEL
 
 [[location]]
 type = "farp"
-name = "Thunder"
-elevation_feet = "4662"
+name = "30TONFUEL"
+elevation_feet = "5338"
 
 [location.coordinates.dms]
-latitude = { direction = "N", degrees = 34, minutes = 22, seconds = 2 }
-longitude = { direction = "E", degrees = 63, minutes = 22, seconds = 17 }
+latitude = { direction = "N", degrees = 34, minutes = 20, seconds = 52 }
+longitude = { direction = "E", degrees = 64, minutes = 1, seconds = 53 }
 
 [location.coordinates.mgrs]
 zone_number = "41"
 zone_band = "S"
 grid = "NU"
-easting = "34157"
-northing = "02951"
+easting = "94868"
+northing = "01209"
 
 [location.navaids]
-adf = "530.00"
-fm = "43.40"
+adf = "560.00"
+fm = "32.10"
 
