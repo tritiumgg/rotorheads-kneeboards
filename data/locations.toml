@@ -347,3 +347,24 @@ northing = "01209"
 adf = "560.00"
 fm = "32.10"
 
+# FARP Warlord
+
+[[location]]
+type = "farp"
+name = "Warlord"
+elevation_feet = "7465"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 39, seconds = 39 }
+longitude = { direction = "E", degrees = 63, minutes = 56, seconds = 22 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NT"
+easting = "87102"
+northing = "24961"
+
+[location.navaids]
+adf = "540.00"
+fm = "51.30"
