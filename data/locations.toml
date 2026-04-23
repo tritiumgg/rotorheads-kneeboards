@@ -205,29 +205,6 @@ length_feet = "687"
 primary = { name = "18", heading = "179" }
 secondary = { name = "36", heading = "359" }
 
-# FARP Warsaw
-
-[[location]]
-type = "farp"
-name = "Warsaw"
-callsign = "Bravo"
-elevation_feet = "7662"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 51, seconds = 13 }
-longitude = { direction = "E", degrees = 63, minutes = 29, seconds = 33 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "NT"
-easting = "45560"
-northing = "46052"
-
-[location.navaids]
-adf = "590.00"
-fm = "53.50"
-
 # FARP Tikrit
 
 [[location]]
@@ -352,6 +329,7 @@ fm = "32.10"
 [[location]]
 type = "farp"
 name = "Warlord"
+callsign = "Bravo"
 elevation_feet = "7465"
 
 [location.coordinates.dms]
