@@ -64,7 +64,6 @@ secondary = { name = "36", heading = "004" }
 [[location]]
 type = "farp"
 name = "Moscow"
-callsign = "Charlie"
 elevation_feet = "2316"
 
 [location.coordinates.dms]
@@ -346,3 +345,26 @@ northing = "24961"
 [location.navaids]
 adf = "540.00"
 fm = "51.30"
+
+# FARP Falcon
+
+[[location]]
+type = "farp"
+name = "Falcon"
+callsign = "Charlie"
+elevation_feet = "2970"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 24, seconds = 51 }
+longitude = { direction = "E", degrees = 63, minutes = 3, seconds = 30 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NR"
+easting = "05510"
+northing = "86374"
+
+[location.navaids]
+adf = "210.00"
+fm = "33.20"
