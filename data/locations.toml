@@ -204,28 +204,6 @@ length_feet = "687"
 primary = { name = "18", heading = "179" }
 secondary = { name = "36", heading = "359" }
 
-# FARP Tikrit
-
-[[location]]
-type = "farp"
-name = "Tikrit"
-elevation_feet = "2862"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 32, minutes = 28, seconds = 36 }
-longitude = { direction = "E", degrees = 62, minutes = 30, seconds = 49 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "MR"
-easting = "54319"
-northing = "93391"
-
-[location.navaids]
-adf = "640.00"
-fm = "71.00"
-
 # FARP Outlaw 
 
 [[location]]
