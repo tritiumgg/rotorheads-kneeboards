@@ -346,3 +346,47 @@ northing = "86374"
 [location.navaids]
 adf = "210.00"
 fm = "33.20"
+
+# FARP Crime
+
+[[location]]
+type = "farp"
+name = "Crime"
+elevation_feet = "1213"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 30, seconds = 42 }
+longitude = { direction = "E", degrees = 63, minutes = 33, seconds = 15 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NR"
+easting = "52069"
+northing = "97317"
+
+[location.navaids]
+adf = "710.00"
+fm = "64.70"
+
+# FARP Speicher
+
+[[location]]
+type = "farp"
+name = "Speicher"
+elevation_feet = 4173
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 17, seconds = 14 }
+longitude = { direction = "E", degrees = 63, minutes = 53, seconds = 7 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NR"
+easting = "83377"
+northing = "72644"
+
+[location.navaids]
+adf = "490.00"
+fm = "62.60"
