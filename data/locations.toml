@@ -374,7 +374,7 @@ fm = "64.70"
 [[location]]
 type = "farp"
 name = "Speicher"
-elevation_feet = 4173
+elevation_feet = "4173"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 32, minutes = 17, seconds = 14 }
