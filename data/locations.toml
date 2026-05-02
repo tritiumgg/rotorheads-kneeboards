@@ -369,7 +369,7 @@ northing = "72644"
 adf = "490.00"
 fm = "62.60"
 
-# Shindand
+# Camp Bastion
 
 [[location]]
 type = "airport"
@@ -395,9 +395,9 @@ fm = "53.10"
 
 [location.frequencies]
 hf = "3.900"
-fm = "39.100"
-vhf = "118.200"
-uhf = "250.200"
+fm = "38.700"
+vhf = "123.300"
+uhf = "250.100"
 
 [[location.runways]]
 elevation_feet = "2886"
@@ -405,7 +405,7 @@ length_feet = "10647"
 primary = { name = "01", heading = "007" }
 secondary = { name = "19", heading = "187" }
 
-# Shindand Heliport
+# Camp Bastion Heliport
 
 [[location]]
 type = "airport"
@@ -434,3 +434,26 @@ elevation_feet = "2901"
 length_feet = "1271"
 primary = { name = "01", heading = "007" }
 secondary = { name = "19", heading = "187" }
+
+# FARP Eggers
+
+[[location]]
+type = "farp"
+name = "Eggers"
+callsign = "Charlie"
+elevation_feet = "3115"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 59, seconds = 49 }
+longitude = { direction = "E", degrees = 64, minutes = 12, seconds = 54 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PR"
+easting = "14796"
+northing = "40761"
+
+[location.navaids]
+adf = "200.00"
+fm = "63.50"
