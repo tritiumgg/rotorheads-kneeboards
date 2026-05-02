@@ -367,6 +367,7 @@ northing = "22886"
 
 [location.navaids]
 tacan = "98X"
+ndb = "423.00"
 adf = "220.00"
 fm = "53.10"
 
