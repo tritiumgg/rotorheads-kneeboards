@@ -81,28 +81,6 @@ northing = "99894"
 adf = "450.00"
 fm = "54.40"
 
-# FARP Nomad
-
-[[location]]
-type = "farp"
-name = "Nomad"
-elevation_feet = "2740"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 34, minutes = 19, seconds = 7 }
-longitude = { direction = "E", degrees = 61, minutes = 31, seconds = 5 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "LT"
-easting = "63676"
-northing = "98505"
-
-[location.navaids]
-adf = "450.00"
-fm = "61.80"
-
 # Qala i Naw
 
 [[location]]
@@ -324,28 +302,6 @@ northing = "24961"
 adf = "540.00"
 fm = "51.30"
 
-# FARP Crime
-
-[[location]]
-type = "farp"
-name = "Crime"
-elevation_feet = "1213"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 32, minutes = 30, seconds = 42 }
-longitude = { direction = "E", degrees = 63, minutes = 33, seconds = 15 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "NR"
-easting = "52069"
-northing = "97317"
-
-[location.navaids]
-adf = "710.00"
-fm = "64.70"
-
 # Camp Bastion
 
 [[location]]
@@ -434,3 +390,57 @@ northing = "40761"
 [location.navaids]
 adf = "200.00"
 fm = "63.50"
+
+# FARP Inferno
+
+[[location]]
+type = "farp"
+name = "Inferno"
+elevation_feet = "2533"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 34, seconds = 17 }
+longitude = { direction = "E", degrees = 64, minutes = 27, seconds = 18 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PQ"
+easting = "38087"
+northing = "93862"
+
+[location.navaids]
+adf = "460.00"
+fm = "73.10"
+
+# Bost
+
+[[location]]
+type = "airport"
+name = "Bost"
+icao = "OABT"
+elevation_feet = "2546"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 33, seconds = 7 }
+longitude = { direction = "E", degrees = 64, minutes = 21, seconds = 47 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PQ"
+easting = "29394"
+northing = "91587"
+
+[location.frequencies]
+hf = "4.050"
+vhf = "131.250"
+fm = "39.000"
+uhf = "243.000"
+
+[[location.runways]]
+elevation_feet = "2546"
+length_feet = "5758"
+primary = { name = "01", heading = "005" }
+secondary = { name = "19", heading = "185" }
+
