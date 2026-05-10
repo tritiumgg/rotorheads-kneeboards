@@ -64,6 +64,7 @@ secondary = { name = "36", heading = "004" }
 [[location]]
 type = "farp"
 name = "Moscow"
+callsign = "Bravo"
 elevation_feet = "2316"
 
 [location.coordinates.dms]
@@ -182,28 +183,6 @@ length_feet = "687"
 primary = { name = "18", heading = "179" }
 secondary = { name = "36", heading = "359" }
 
-# FARP Outlaw 
-
-[[location]]
-type = "farp"
-name = "Outlaw"
-elevation_feet = "4226"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 4, seconds = 8 }
-longitude = { direction = "E", degrees = 63, minutes = 0, seconds = 52 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "NS"
-easting = "01355"
-northing = "58924"
-
-[location.navaids]
-adf = "360.00"
-fm = "63.70"
-
 # Farah
 
 [[location]]
@@ -284,7 +263,6 @@ fm = "32.10"
 [[location]]
 type = "farp"
 name = "Warlord"
-callsign = "Bravo"
 elevation_feet = "7465"
 
 [location.coordinates.dms]
@@ -392,28 +370,6 @@ northing = "40761"
 adf = "200.00"
 fm = "63.50"
 
-# FARP Inferno
-
-[[location]]
-type = "farp"
-name = "Inferno"
-elevation_feet = "2533"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 31, minutes = 34, seconds = 17 }
-longitude = { direction = "E", degrees = 64, minutes = 27, seconds = 18 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "R"
-grid = "PQ"
-easting = "38087"
-northing = "93862"
-
-[location.navaids]
-adf = "460.00"
-fm = "73.10"
-
 # Bost
 
 [[location]]
@@ -445,3 +401,24 @@ length_feet = "5758"
 primary = { name = "01", heading = "005" }
 secondary = { name = "19", heading = "185" }
 
+# FARP Hornet
+
+[[location]]
+type = "farp"
+name = "Hornet"
+elevation_feet = "1892"
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 57, seconds = 15 }
+longitude = { direction = "E", degrees = 62, minutes = 4, seconds = 1 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "MR"
+easting = "11838"
+northing = "35746"
+
+[location.navaids]
+adf = "800.00"
+fm = "51.60"
