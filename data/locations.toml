@@ -395,6 +395,29 @@ length_feet = "7800"
 primary = { name = "14", heading = "138" }
 secondary = { name = "32", heading = "318" }
 
+# FARP PANTHER
+
+[[location]]
+type = "farp"
+name = "PANTHER"
+shortname = "PANTHR"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 8, seconds = 15 }
+longitude = { direction = "E", degrees = 65, minutes = 7, seconds = 3 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PU"
+easting = "92913"
+northing = "90329"
+
+[location.navaids]
+adf = "810.00"
+fm = "65.50"
+
 # QALA I NAW
 
 [[location]]
