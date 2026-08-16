@@ -400,7 +400,7 @@ secondary = { name = "32", heading = "318" }
 type = "farp"
 name = "OSPREY"
 shortname = "OSPREY"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "1875"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 33, seconds = 30 }
