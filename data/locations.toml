@@ -27,7 +27,7 @@ fm = "45.30"
 type = "farp"
 name = "BELVEDERE"
 shortname = "BELVDR"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "2474"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 54, seconds = 0 }
@@ -572,7 +572,7 @@ fm = "62.00"
 type = "farp"
 name = "WESSEX"
 shortname = "WESSEX"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "2335"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 55, seconds = 41 }
