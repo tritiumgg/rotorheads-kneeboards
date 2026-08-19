@@ -21,28 +21,28 @@ northing = "32643"
 adf = "310.00"
 fm = "45.30"
 
-# FARP APOLLO
+# FARP BELVEDERE
 
 [[location]]
 type = "farp"
-name = "APOLLO"
-shortname = "APOLLO"
-elevation_feet = "9453"
+name = "BELVEDERE"
+shortname = "BELVDR"
+elevation_feet = ""  # TODO: survey elevation in-game
 
 [location.coordinates.dms]
-latitude = { direction = "N", degrees = 34, minutes = 48, seconds = 14 }
-longitude = { direction = "E", degrees = 65, minutes = 38, seconds = 6 }
+latitude = { direction = "N", degrees = 35, minutes = 54, seconds = 0 }
+longitude = { direction = "E", degrees = 64, minutes = 33, seconds = 47 }
 
 [location.coordinates.mgrs]
 zone_number = "41"
 zone_band = "S"
-grid = "QU"
-easting = "41051"
-northing = "54446"
+grid = "PV"
+easting = "41056"
+northing = "73977"
 
 [location.navaids]
-adf = "850.00"
-fm = "65.20"
+adf = "900.00"
+fm = "43.30"
 
 # BOST
 
@@ -476,30 +476,6 @@ length_feet = "6100"
 primary = { name = "04", heading = "036" }
 secondary = { name = "22", heading = "216" }
 
-# FARP SHIELDS
-
-[[location]]
-type = "farp"
-name = "SHIELDS"
-shortname = "SHILDS"
-callsign = "Charlie"
-elevation_feet = "3289"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 13, seconds = 28 }
-longitude = { direction = "E", degrees = 63, minutes = 43, seconds = 29 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "NU"
-easting = "65957"
-northing = "98187"
-
-[location.navaids]
-adf = "500.00"
-fm = "53.80"
-
 # SHINDAND
 
 [[location]]
@@ -589,6 +565,29 @@ northing = "12924"
 [location.navaids]
 adf = "1150.00"
 fm = "62.00"
+
+# FARP WESSEX
+
+[[location]]
+type = "farp"
+name = "WESSEX"
+shortname = "WESSEX"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 55, seconds = 41 }
+longitude = { direction = "E", degrees = 64, minutes = 18, seconds = 17 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PV"
+easting = "17689"
+northing = "76741"
+
+[location.navaids]
+adf = "1200.00"
+fm = "31.90"
 
 # FARP WHIRLWIND
 
