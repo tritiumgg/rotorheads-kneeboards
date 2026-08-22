@@ -400,6 +400,7 @@ secondary = { name = "32", heading = "318" }
 type = "farp"
 name = "PANTHER"
 shortname = "PANTHR"
+callsign = "Bravo"
 elevation_feet = "6200"
 
 [location.coordinates.dms]
@@ -572,7 +573,6 @@ fm = "31.90"
 type = "farp"
 name = "WHIRLWIND"
 shortname = "WRLWND"
-callsign = "Bravo"
 elevation_feet = "7863"
 
 [location.coordinates.dms]
