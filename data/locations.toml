@@ -1,26 +1,3 @@
-# FARP ADAMA
-
-[[location]]
-type = "farp"
-name = "ADAMA"
-shortname = "ADAMA"
-elevation_feet = "2312"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 31, minutes = 1, seconds = 22 }
-longitude = { direction = "E", degrees = 64, minutes = 6, seconds = 37 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "R"
-grid = "PQ"
-easting = "05981"
-northing = "32643"
-
-[location.navaids]
-adf = "310.00"
-fm = "45.30"
-
 # FARP BELVEDERE
 
 [[location]]
