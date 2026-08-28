@@ -4,6 +4,7 @@
 type = "farp"
 name = "BELVEDERE"
 shortname = "BELVDR"
+callsign = "Charlie"
 elevation_feet = "2474"
 
 [location.coordinates.dms]
@@ -526,7 +527,6 @@ fm = "62.00"
 type = "farp"
 name = "WESSEX"
 shortname = "WESSEX"
-callsign = "Charlie"
 elevation_feet = "2335"
 
 [location.coordinates.dms]
