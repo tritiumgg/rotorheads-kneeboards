@@ -4,7 +4,6 @@
 type = "farp"
 name = "BELVEDERE"
 shortname = "BELVDR"
-callsign = "Charlie"
 elevation_feet = "2474"
 
 [location.coordinates.dms]
@@ -431,6 +430,30 @@ length_feet = "6100"
 primary = { name = "04", heading = "036" }
 secondary = { name = "22", heading = "216" }
 
+# FARP SENECA
+
+[[location]]
+type = "farp"
+name = "SENECA"
+shortname = "SENECA"
+callsign = "Charlie"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 48, seconds = 30 }
+longitude = { direction = "E", degrees = 65, minutes = 7, seconds = 37 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PV"
+easting = "92178"
+northing = "64769"
+
+[location.navaids]
+adf = "400.00"
+fm = "65.70"
+
 # SHINDAND
 
 [[location]]
@@ -520,29 +543,6 @@ northing = "12924"
 [location.navaids]
 adf = "1150.00"
 fm = "62.00"
-
-# FARP WESSEX
-
-[[location]]
-type = "farp"
-name = "WESSEX"
-shortname = "WESSEX"
-elevation_feet = "2335"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 55, seconds = 41 }
-longitude = { direction = "E", degrees = 64, minutes = 18, seconds = 17 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "PV"
-easting = "17689"
-northing = "76741"
-
-[location.navaids]
-adf = "1200.00"
-fm = "31.90"
 
 # FARP WHIRLWIND
 
