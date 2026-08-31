@@ -342,7 +342,7 @@ secondary = { name = "36", heading = "005" }
 type = "farp"
 name = "LIBERATOR"
 shortname = "LIBRTR"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "8756"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 40, seconds = 44 }
@@ -460,7 +460,7 @@ type = "farp"
 name = "SENECA"
 shortname = "SENECA"
 callsign = "Charlie"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "5840"
 
 [location.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 48, seconds = 30 }
