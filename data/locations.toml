@@ -342,6 +342,7 @@ secondary = { name = "36", heading = "005" }
 type = "farp"
 name = "LIBERATOR"
 shortname = "LIBRTR"
+callsign = "Alpha"
 elevation_feet = "8756"
 
 [location.coordinates.dms]
@@ -477,6 +478,29 @@ northing = "64769"
 adf = "400.00"
 fm = "65.70"
 
+# FARP SHIELDS
+
+[[location]]
+type = "farp"
+name = "SHIELDS"
+shortname = "SHILDS"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 53, seconds = 47 }
+longitude = { direction = "E", degrees = 65, minutes = 53, seconds = 27 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QV"
+easting = "60919"
+northing = "76316"
+
+[location.navaids]
+adf = "540.00"
+fm = "41.50"
+
 # SHINDAND
 
 [[location]]
@@ -549,7 +573,6 @@ secondary = { name = "36", heading = "359" }
 type = "farp"
 name = "VINTOKRYL"
 shortname = "VNTKRL"
-callsign = "Alpha"
 elevation_feet = "9101"
 
 [location.coordinates.dms]
