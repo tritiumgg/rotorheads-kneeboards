@@ -1,3 +1,26 @@
+# FARP ALOUETTE
+
+[[location]]
+type = "farp"
+name = "ALOUETTE"
+shortname = "ALOUET"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 59, seconds = 32 }
+longitude = { direction = "E", degrees = 65, minutes = 10, seconds = 44 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QT"
+easting = "01261"
+northing = "63426"
+
+[location.navaids]
+adf = "480.00"
+fm = "45.30"
+
 # FARP BELVEDERE
 
 [[location]]
@@ -342,6 +365,7 @@ secondary = { name = "36", heading = "005" }
 type = "farp"
 name = "LIBERATOR"
 shortname = "LIBRTR"
+callsign = "Alpha"
 elevation_feet = "8756"
 
 [location.coordinates.dms]
@@ -393,30 +417,6 @@ elevation_feet = "1585"
 length_feet = "7800"
 primary = { name = "14", heading = "138" }
 secondary = { name = "32", heading = "318" }
-
-# FARP PANTHER
-
-[[location]]
-type = "farp"
-name = "PANTHER"
-shortname = "PANTHR"
-callsign = "Bravo"
-elevation_feet = "6200"
-
-[location.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 8, seconds = 15 }
-longitude = { direction = "E", degrees = 65, minutes = 7, seconds = 3 }
-
-[location.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "PU"
-easting = "92913"
-northing = "90329"
-
-[location.navaids]
-adf = "810.00"
-fm = "65.50"
 
 # QALA I NAW
 
@@ -476,6 +476,29 @@ northing = "64769"
 [location.navaids]
 adf = "400.00"
 fm = "65.70"
+
+# FARP SHIELDS
+
+[[location]]
+type = "farp"
+name = "SHIELDS"
+shortname = "SHILDS"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[location.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 53, seconds = 47 }
+longitude = { direction = "E", degrees = 65, minutes = 53, seconds = 27 }
+
+[location.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QV"
+easting = "60919"
+northing = "76316"
+
+[location.navaids]
+adf = "540.00"
+fm = "41.50"
 
 # SHINDAND
 
@@ -549,7 +572,6 @@ secondary = { name = "36", heading = "359" }
 type = "farp"
 name = "VINTOKRYL"
 shortname = "VNTKRL"
-callsign = "Alpha"
 elevation_feet = "9101"
 
 [location.coordinates.dms]
@@ -573,6 +595,7 @@ fm = "62.00"
 type = "farp"
 name = "WHIRLWIND"
 shortname = "WRLWND"
+callsign = "Bravo"
 elevation_feet = "7863"
 
 [location.coordinates.dms]
