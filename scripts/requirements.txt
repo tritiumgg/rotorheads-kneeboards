@@ -7,4 +7,4 @@ pyproj==3.7.2
 packaging==26.3
 
 # Magnetic declination for runway headings in scripts/import_airports.py
-pygeomag==1.1.1
+pygeomag==1.1.0

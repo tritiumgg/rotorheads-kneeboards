@@ -2,9 +2,9 @@ name: Update Map Data
 
 on:
   schedule:
-    # Daily at 00:00 UTC. GitHub Actions cron is always UTC.
+    # Every 4 hours, on the hour. GitHub Actions cron is always UTC.
     # Scheduled runs can be delayed by several minutes under load.
-    - cron: '0 0 * * *'
+    - cron: '0 */4 * * *'
   push:
     # A data edit landing on main can leave an open pull request unmergeable;
     # re-running here rebases it promptly instead of waiting for the next
