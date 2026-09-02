@@ -1,7 +1,10 @@
-# Coordinate handling for scripts/update_locations.py
+# Coordinate handling for the FARP, linting and route scripts
 mgrs==1.5.4
 pyproj==3.7.2
 
-# mgrs 1.5.4 imports packagine.tags but does not declare it as a dependency.
-# remove once mgrs fixes this
+# mgrs 1.5.4 imports packaging.tags but does not declare it as a dependency, so
+# pip will not pull it in on its own. Remove once mgrs fixes that.
 packaging==26.3
+
+# Magnetic declination for runway headings in scripts/import_airports.py
+pygeomag==1.1.1

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 release_notes.py - Write release notes describing what actually changed on the
-kneeboard between two versions of data/locations.toml.
+kneeboard between two versions of the data files.
 
 Commit subjects are listed too, but the useful part is the data diff: a reader
 wants to know that a FARP moved, not that a workflow ran.
@@ -42,18 +42,29 @@ COORDINATE_PREFIX = "coordinates."
 RUNWAY_PREFIX = "runways"
 
 # Emitted in this order for a new location. Matches the order the fields appear
-# in locations.toml, which is also the order they read on the kneeboard.
+# in the data files, which is also the order they read on the kneeboard.
 NAVAID_KEYS = ("tacan", "vor", "ndb", "adf", "fm")
 FREQUENCY_KEYS = ("hf", "fm", "vhf", "uhf")
 
 log = logging.getLogger("release_notes")
 
 
-def load(path: Path | None) -> dict[str, dict[str, Any]]:
-    if path is None or not path.is_file():
-        return {}
-    document = tomllib.loads(path.read_text(encoding="utf-8"))
-    return {entry["name"]: entry for entry in document.get("location", [])}
+def load(paths: list[Path] | None) -> dict[str, dict[str, Any]]:
+    """Merge both data files into one name-keyed mapping.
+
+    Each entry carries its own `type`, so the sections below can still split
+    them apart; loading them together is what keeps the diff logic identical to
+    when there was a single file.
+    """
+    merged: dict[str, dict[str, Any]] = {}
+    for path in paths or []:
+        if not path.is_file():
+            continue
+        document = tomllib.loads(path.read_text(encoding="utf-8"))
+        for table in ("farp", "airport"):
+            for entry in document.get(table, []):
+                merged[entry["name"]] = entry
+    return merged
 
 
 def dms_string(location: dict[str, Any]) -> str:
@@ -314,8 +325,12 @@ def parse_arguments(argv: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         prog="release_notes.py", description="Write kneeboard release notes."
     )
-    parser.add_argument("--current", type=Path, required=True, help="new locations.toml")
-    parser.add_argument("--previous", type=Path, help="locations.toml from the previous release")
+    parser.add_argument(
+        "--current", type=Path, nargs="+", required=True, help="new data files"
+    )
+    parser.add_argument(
+        "--previous", type=Path, nargs="+", help="data files from the previous release"
+    )
     parser.add_argument("--previous-tag", help="name of the previous release, for the heading")
     parser.add_argument("--commits", type=Path, help="file of commit subjects, one per line")
     parser.add_argument("-o", "--output", type=Path, help="write here instead of stdout")
@@ -342,8 +357,9 @@ def main(argv: list[str]) -> int:
         stream=sys.stderr,
     )
 
-    if not args.current.is_file():
-        log.error("File not found: %s", args.current)
+    missing = [path for path in args.current if not path.is_file()]
+    if missing:
+        log.error("File(s) not found: %s", ", ".join(str(p) for p in missing))
         return 2
 
     commits = []
