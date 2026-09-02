@@ -1,0 +1,232 @@
+# FARP ALOUETTE
+
+[[farp]]
+type = "farp"
+name = "ALOUETTE"
+shortname = "ALOUET"
+elevation_feet = "9305"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 59, seconds = 32 }
+longitude = { direction = "E", degrees = 65, minutes = 10, seconds = 44 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QT"
+easting = "01261"
+northing = "63426"
+
+[farp.navaids]
+adf = "480.00"
+fm = "45.30"
+
+# FARP BELVEDERE
+
+[[farp]]
+type = "farp"
+name = "BELVEDERE"
+shortname = "BELVDR"
+elevation_feet = "2474"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 54, seconds = 0 }
+longitude = { direction = "E", degrees = 64, minutes = 33, seconds = 47 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PV"
+easting = "41056"
+northing = "73977"
+
+[farp.navaids]
+adf = "900.00"
+fm = "43.30"
+
+# FARP CYLON
+
+[[farp]]
+type = "farp"
+name = "CYLON"
+shortname = "CYLON"
+elevation_feet = "3350"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 58, seconds = 34 }
+longitude = { direction = "E", degrees = 63, minutes = 20, seconds = 26 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NU"
+easting = "31093"
+northing = "70436"
+
+[farp.navaids]
+adf = "630.00"
+fm = "52.80"
+
+# FARP EGGERS
+
+[[farp]]
+type = "farp"
+name = "EGGERS"
+shortname = "EGGERS"
+elevation_feet = "3114"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 59, seconds = 50 }
+longitude = { direction = "E", degrees = 64, minutes = 12, seconds = 57 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PR"
+easting = "14846"
+northing = "40761"
+
+[farp.navaids]
+adf = "200.00"
+fm = "63.50"
+
+# FARP HAWK
+
+[[farp]]
+type = "farp"
+name = "HAWK"
+shortname = "HAWK"
+elevation_feet = "3666"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 57, seconds = 20 }
+longitude = { direction = "E", degrees = 65, minutes = 0, seconds = 48 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PR"
+easting = "90285"
+northing = "37264"
+
+[farp.navaids]
+adf = "790.00"
+fm = "51.00"
+
+# FARP LIBERATOR
+
+[[farp]]
+type = "farp"
+name = "LIBERATOR"
+shortname = "LIBRTR"
+callsign = "Alpha"
+elevation_feet = "8756"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 40, seconds = 44 }
+longitude = { direction = "E", degrees = 65, minutes = 50, seconds = 1 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QV"
+easting = "56455"
+northing = "52029"
+
+[farp.navaids]
+adf = "800.00"
+fm = "51.20"
+
+# FARP SENECA
+
+[[farp]]
+type = "farp"
+name = "SENECA"
+shortname = "SENECA"
+elevation_feet = "5840"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 48, seconds = 30 }
+longitude = { direction = "E", degrees = 65, minutes = 7, seconds = 37 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PV"
+easting = "92178"
+northing = "64769"
+
+[farp.navaids]
+adf = "400.00"
+fm = "65.70"
+
+# FARP SHIELDS
+
+[[farp]]
+type = "farp"
+name = "SHIELDS"
+shortname = "SHILDS"
+elevation_feet = "5269"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 53, seconds = 47 }
+longitude = { direction = "E", degrees = 65, minutes = 53, seconds = 27 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QV"
+easting = "60919"
+northing = "76316"
+
+[farp.navaids]
+adf = "540.00"
+fm = "41.50"
+
+# FARP VINTOKRYL
+
+[[farp]]
+type = "farp"
+name = "VINTOKRYL"
+shortname = "VNTKRL"
+callsign = "Charlie"
+elevation_feet = "9101"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 19, seconds = 23 }
+longitude = { direction = "E", degrees = 66, minutes = 1, seconds = 34 }
+
+[farp.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "TE"
+easting = "29655"
+northing = "12924"
+
+[farp.navaids]
+adf = "1150.00"
+fm = "62.00"
+
+# FARP WHIRLWIND
+
+[[farp]]
+type = "farp"
+name = "WHIRLWIND"
+shortname = "WRLWND"
+callsign = "Bravo"
+elevation_feet = "7863"
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 33, seconds = 38 }
+longitude = { direction = "E", degrees = 65, minutes = 1, seconds = 15 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PU"
+easting = "85398"
+northing = "26152"
+
+[farp.navaids]
+adf = "1100.00"
+fm = "73.80"

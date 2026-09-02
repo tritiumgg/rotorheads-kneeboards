@@ -76,7 +76,7 @@
                 </tr>
                 </thead>
                 <tbody>
-                {{ range coll.Sort "name" .locations.location }}
+                {{ $locations := coll.Flatten (coll.Slice .farps.farp .airports.airport) }}{{ range coll.Sort "name" $locations }}{{ if or (ne .type "airport") .display }}
                 <tr class="location-type__{{ .type }}">
                     <td class="location">
                         {{ $identifier := "" }}{{ if index . "icao" }}{{ $identifier = .icao }}{{ else if index . "shortname" }}{{ if ne .shortname (.name | strings.ToUpper) }}{{ $identifier = .shortname }}{{ end }}{{ end }}<span class="location__name">{{ .name }}{{ if index . "callsign" }} <span class="location__callsign location__callsign--{{ .callsign | strings.Trunc 1 | strings.ToLower }}">{{ .callsign | strings.Trunc 1 }}</span>{{ end }}{{ if $identifier }} <span class="location__identifier">{{ $identifier }}</span>{{ end }}</span>
@@ -143,7 +143,7 @@
                         {{ end }}
                     </td>
                 </tr>
-                {{ end }}
+                {{ end }}{{ end }}
                 </tbody>
             </table>
         </section>

@@ -1,0 +1,947 @@
+# BAGRAM
+
+[[airport]]
+type = "airport"
+name = "BAGRAM"
+icao = "OAIX"
+display = false
+elevation_feet = "4895"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 56, seconds = 45 }
+longitude = { direction = "E", degrees = 69, minutes = 15, seconds = 57 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WD"
+easting = "24278"
+northing = "67058"
+
+[airport.navaids]
+tacan = "74X"
+vor = "112.70"
+
+[airport.frequencies]
+hf = "4.125"
+fm = "39.150"
+vhf = "120.100"
+uhf = "325.750"
+
+[[airport.runways]]
+elevation_feet = "4895"
+length_feet = "11117"
+primary = { name = "03R", heading = "023" }
+secondary = { name = "21L", heading = "203" }
+
+[[airport.runways]]
+elevation_feet = "4895"
+length_feet = "11117"
+primary = { name = "03L", heading = "023" }
+secondary = { name = "21R", heading = "203" }
+
+# BAMYAN
+
+[[airport]]
+type = "airport"
+name = "BAMYAN"
+icao = "OABN"
+display = false
+elevation_feet = "8490"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 48, seconds = 32 }
+longitude = { direction = "E", degrees = 67, minutes = 49, seconds = 0 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "UD"
+easting = "91775"
+northing = "52492"
+
+[airport.frequencies]
+hf = "4.325"
+fm = "39.550"
+vhf = "118.550"
+uhf = "250.650"
+
+[[airport.runways]]
+elevation_feet = "8490"
+length_feet = "6250"
+primary = { name = "07", heading = "064" }
+secondary = { name = "25", heading = "244" }
+
+# BOST
+
+[[airport]]
+type = "airport"
+name = "BOST"
+icao = "OABT"
+display = true
+elevation_feet = "2546"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 33, seconds = 35 }
+longitude = { direction = "E", degrees = 64, minutes = 21, seconds = 53 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PQ"
+easting = "29530"
+northing = "92454"
+
+[airport.navaids]
+adf = "370.00"
+fm = "42.90"
+
+[airport.frequencies]
+hf = "4.050"
+fm = "39.000"
+vhf = "131.250"
+uhf = "243.000"
+
+[[airport.runways]]
+elevation_feet = "2546"
+length_feet = "5758"
+primary = { name = "01", heading = "004" }
+secondary = { name = "19", heading = "184" }
+
+# CAMP BASTION
+
+[[airport]]
+type = "airport"
+name = "CAMP BASTION"
+icao = "OAZI"
+display = true
+elevation_feet = "2886"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 51, seconds = 1 }
+longitude = { direction = "E", degrees = 64, minutes = 13, seconds = 25 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PR"
+easting = "15773"
+northing = "24479"
+
+[airport.navaids]
+tacan = "98X"
+ndb = "423.00"
+adf = "220.00"
+fm = "53.10"
+
+[airport.frequencies]
+hf = "3.900"
+fm = "38.700"
+vhf = "123.300"
+uhf = "250.100"
+
+[[airport.runways]]
+elevation_feet = "2886"
+length_feet = "10647"
+primary = { name = "01", heading = "007" }
+secondary = { name = "19", heading = "187" }
+
+# CAMP BASTION HELIPORT
+
+[[airport]]
+type = "airport"
+name = "CAMP BASTION HELIPORT"
+display = true
+elevation_feet = "2901"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 51, seconds = 20 }
+longitude = { direction = "E", degrees = 64, minutes = 12, seconds = 48 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PR"
+easting = "14776"
+northing = "25054"
+
+[airport.frequencies]
+hf = "4.100"
+fm = "39.100"
+vhf = "118.200"
+uhf = "250.200"
+
+[[airport.runways]]
+elevation_feet = "2901"
+length_feet = "1271"
+primary = { name = "01", heading = "007" }
+secondary = { name = "19", heading = "187" }
+
+# CHAGHCHARAN
+
+[[airport]]
+type = "airport"
+name = "CHAGHCHARAN"
+icao = "OACC"
+display = true
+elevation_feet = "7450"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 31, seconds = 35 }
+longitude = { direction = "E", degrees = 65, minutes = 16, seconds = 17 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QU"
+easting = "08469"
+northing = "22881"
+
+[airport.navaids]
+adf = "820.00"
+fm = "55.30"
+
+[airport.frequencies]
+hf = "3.825"
+fm = "38.550"
+vhf = "118.000"
+uhf = "250.050"
+
+[[airport.runways]]
+elevation_feet = "7450"
+length_feet = "5710"
+primary = { name = "07", heading = "062" }
+secondary = { name = "25", heading = "242" }
+
+# DWYER
+
+[[airport]]
+type = "airport"
+name = "DWYER"
+icao = "OADY"
+display = true
+elevation_feet = "2398"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 5, seconds = 31 }
+longitude = { direction = "E", degrees = 64, minutes = 4, seconds = 1 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "PQ"
+easting = "01763"
+northing = "40281"
+
+[airport.navaids]
+tacan = "46X"
+adf = "210.00"
+fm = "75.30"
+
+[airport.frequencies]
+hf = "3.775"
+fm = "38.450"
+vhf = "121.750"
+uhf = "343.000"
+
+[[airport.runways]]
+elevation_feet = "2398"
+length_feet = "7459"
+primary = { name = "05", heading = "047" }
+secondary = { name = "23", heading = "227" }
+
+# FARAH
+
+[[airport]]
+type = "airport"
+name = "FARAH"
+icao = "OAFR"
+display = true
+elevation_feet = "2240"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 21, seconds = 48 }
+longitude = { direction = "E", degrees = 62, minutes = 10, seconds = 4 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MR"
+easting = "21698"
+northing = "81012"
+
+[airport.navaids]
+adf = "620.00"
+fm = "63.20"
+
+[airport.frequencies]
+hf = "3.975"
+fm = "38.850"
+vhf = "118.100"
+uhf = "250.300"
+
+[[airport.runways]]
+elevation_feet = "2240"
+length_feet = "6990"
+primary = { name = "15", heading = "147" }
+secondary = { name = "33", heading = "327" }
+
+# FOB CAMP DUBS
+
+[[airport]]
+type = "airport"
+name = "FOB CAMP DUBS"
+display = false
+elevation_feet = "16"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 0, minutes = 0, seconds = 0 }
+longitude = { direction = "E", degrees = 0, minutes = 0, seconds = 0 }
+
+[airport.coordinates.mgrs]
+zone_number = "31"
+zone_band = "N"
+grid = "AA"
+easting = "66021"
+northing = "00000"
+
+# FOB CLARK
+
+[[airport]]
+type = "airport"
+name = "FOB CLARK"
+display = false
+elevation_feet = "16"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 0, minutes = 0, seconds = 0 }
+longitude = { direction = "E", degrees = 0, minutes = 0, seconds = 0 }
+
+[airport.coordinates.mgrs]
+zone_number = "31"
+zone_band = "N"
+grid = "AA"
+easting = "66021"
+northing = "00000"
+
+# FOB SALERNO
+
+[[airport]]
+type = "airport"
+name = "FOB SALERNO"
+icao = "OASL"
+display = false
+elevation_feet = "3777"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 21, seconds = 48 }
+longitude = { direction = "E", degrees = 69, minutes = 57, seconds = 19 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WB"
+easting = "88867"
+northing = "91982"
+
+[airport.frequencies]
+hf = "4.275"
+fm = "39.450"
+vhf = "121.500"
+uhf = "243.000"
+
+[[airport.runways]]
+elevation_feet = "3777"
+length_feet = "2149"
+primary = { name = "08", heading = "082" }
+secondary = { name = "26", heading = "262" }
+
+# FOB THUNDER
+
+[[airport]]
+type = "airport"
+name = "FOB THUNDER"
+display = false
+elevation_feet = "16"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 0, minutes = 0, seconds = 0 }
+longitude = { direction = "E", degrees = 0, minutes = 0, seconds = 0 }
+
+[airport.coordinates.mgrs]
+zone_number = "31"
+zone_band = "N"
+grid = "AA"
+easting = "66021"
+northing = "00000"
+
+# GARDEZ
+
+[[airport]]
+type = "airport"
+name = "GARDEZ"
+icao = "OAGZ"
+display = false
+elevation_feet = "7725"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 37, seconds = 41 }
+longitude = { direction = "E", degrees = 69, minutes = 14, seconds = 15 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WC"
+easting = "22028"
+northing = "20943"
+
+[airport.frequencies]
+hf = "4.350"
+fm = "39.600"
+vhf = "118.600"
+uhf = "250.700"
+
+[[airport.runways]]
+elevation_feet = "7725"
+length_feet = "5429"
+primary = { name = "03", heading = "021" }
+secondary = { name = "21", heading = "201" }
+
+# GHAZNI HELIPORT
+
+[[airport]]
+type = "airport"
+name = "GHAZNI HELIPORT"
+icao = "OAGN"
+display = false
+elevation_feet = "7123"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 30, seconds = 16 }
+longitude = { direction = "E", degrees = 68, minutes = 24, seconds = 51 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "VC"
+easting = "45593"
+northing = "07378"
+
+[airport.frequencies]
+hf = "4.300"
+fm = "39.500"
+vhf = "118.450"
+uhf = "250.550"
+
+[[airport.runways]]
+elevation_feet = "7123"
+length_feet = "1215"
+primary = { name = "17", heading = "170" }
+secondary = { name = "35", heading = "350" }
+
+# HERAT
+
+[[airport]]
+type = "airport"
+name = "HERAT"
+icao = "OAHR"
+display = true
+elevation_feet = "3182"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 12, seconds = 28 }
+longitude = { direction = "E", degrees = 62, minutes = 13, seconds = 41 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MT"
+easting = "28875"
+northing = "85477"
+
+[airport.navaids]
+tacan = "54X"
+vor = "116.20"
+ndb = "412.00"
+adf = "550.00"
+fm = "41.90"
+
+[airport.frequencies]
+hf = "3.750"
+fm = "38.400"
+vhf = "123.350"
+uhf = "240.300"
+
+[[airport.runways]]
+elevation_feet = "3182"
+length_feet = "8920"
+primary = { name = "18", heading = "184" }
+secondary = { name = "36", heading = "004" }
+
+# JALALABAD
+
+[[airport]]
+type = "airport"
+name = "JALALABAD"
+icao = "OAJL"
+display = false
+elevation_feet = "1841"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 24, seconds = 1 }
+longitude = { direction = "E", degrees = 70, minutes = 29, seconds = 53 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "XD"
+easting = "37700"
+northing = "07552"
+
+[airport.frequencies]
+hf = "4.250"
+fm = "39.400"
+vhf = "129.700"
+uhf = "231.000"
+
+[[airport.runways]]
+elevation_feet = "1841"
+length_feet = "6221"
+primary = { name = "13", heading = "124" }
+secondary = { name = "31", heading = "304" }
+
+# KABUL
+
+[[airport]]
+type = "airport"
+name = "KABUL"
+icao = "OAKB"
+display = false
+elevation_feet = "5869"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 33, seconds = 57 }
+longitude = { direction = "E", degrees = 69, minutes = 12, seconds = 46 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WD"
+easting = "19507"
+northing = "24909"
+
+[airport.navaids]
+tacan = "65X"
+vor = "112.00"
+
+[airport.frequencies]
+hf = "4.200"
+fm = "39.300"
+vhf = "120.600"
+uhf = "284.250"
+
+[[airport.runways]]
+elevation_feet = "5869"
+length_feet = "10393"
+primary = { name = "11", heading = "100" }
+secondary = { name = "29", heading = "280" }
+
+# KANDAHAR
+
+[[airport]]
+type = "airport"
+name = "KANDAHAR"
+icao = "OAKN"
+display = false
+elevation_feet = "3336"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 30, seconds = 21 }
+longitude = { direction = "E", degrees = 65, minutes = 50, seconds = 52 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "QQ"
+easting = "70460"
+northing = "89170"
+
+[airport.navaids]
+tacan = "75X"
+vor = "116.00"
+
+[airport.frequencies]
+hf = "4.025"
+fm = "38.950"
+vhf = "125.500"
+uhf = "360.200"
+
+[[airport.runways]]
+elevation_feet = "3336"
+length_feet = "9780"
+primary = { name = "05", heading = "051" }
+secondary = { name = "23", heading = "231" }
+
+# KANDAHAR HELIPORT
+
+[[airport]]
+type = "airport"
+name = "KANDAHAR HELIPORT"
+display = false
+elevation_feet = "3337"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 31, minutes = 31, seconds = 15 }
+longitude = { direction = "E", degrees = 65, minutes = 50, seconds = 45 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "QQ"
+easting = "70243"
+northing = "90824"
+
+[airport.frequencies]
+hf = "3.950"
+fm = "38.800"
+vhf = "119.500"
+uhf = "300.200"
+
+[[airport.runways]]
+elevation_feet = "3337"
+length_feet = "718"
+primary = { name = "05L", heading = "051" }
+secondary = { name = "23R", heading = "231" }
+
+# KHOST
+
+[[airport]]
+type = "airport"
+name = "KHOST"
+icao = "OAKS"
+display = false
+elevation_feet = "3754"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 19, seconds = 59 }
+longitude = { direction = "E", degrees = 69, minutes = 57, seconds = 4 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WB"
+easting = "88504"
+northing = "88614"
+
+[airport.frequencies]
+hf = "4.225"
+fm = "39.350"
+vhf = "118.400"
+uhf = "250.500"
+
+[[airport.runways]]
+elevation_feet = "3754"
+length_feet = "5619"
+primary = { name = "05", heading = "055" }
+secondary = { name = "23", heading = "235" }
+
+# MAYMANA ZAHIRADDIN FARYABI
+
+[[airport]]
+type = "airport"
+name = "MAYMANA ZAHIRADDIN FARYABI"
+icao = "OAMN"
+display = true
+elevation_feet = "2758"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 55, seconds = 50 }
+longitude = { direction = "E", degrees = 64, minutes = 45, seconds = 39 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PV"
+easting = "58851"
+northing = "77691"
+
+[airport.frequencies]
+hf = "3.875"
+fm = "38.650"
+vhf = "118.150"
+uhf = "250.150"
+
+[[airport.runways]]
+elevation_feet = "2758"
+length_feet = "5542"
+primary = { name = "14", heading = "138" }
+secondary = { name = "32", heading = "318" }
+
+# NIMROZ
+
+[[airport]]
+type = "airport"
+name = "NIMROZ"
+icao = "OANZ"
+display = true
+elevation_feet = "1585"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 30, minutes = 57, seconds = 49 }
+longitude = { direction = "E", degrees = 62, minutes = 3, seconds = 39 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "MQ"
+easting = "10296"
+northing = "25934"
+
+[airport.navaids]
+adf = "260.00"
+fm = "34.20"
+
+[airport.frequencies]
+hf = "3.850"
+fm = "38.600"
+vhf = "118.050"
+uhf = "250.000"
+
+[[airport.runways]]
+elevation_feet = "1585"
+length_feet = "6944"
+primary = { name = "14", heading = "137" }
+secondary = { name = "32", heading = "317" }
+
+# QALA I NAW
+
+[[airport]]
+type = "airport"
+name = "QALA I NAW"
+icao = "OAQN"
+display = true
+elevation_feet = "2921"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 34, minutes = 59, seconds = 9 }
+longitude = { direction = "E", degrees = 63, minutes = 7, seconds = 4 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "NU"
+easting = "10746"
+northing = "71475"
+
+[airport.navaids]
+adf = "230.00"
+fm = "63.90"
+
+[airport.frequencies]
+hf = "4.000"
+fm = "38.900"
+vhf = "118.350"
+uhf = "250.350"
+
+[[airport.runways]]
+elevation_feet = "2921"
+length_feet = "6115"
+primary = { name = "04", heading = "036" }
+secondary = { name = "22", heading = "216" }
+
+# SHARANA
+
+[[airport]]
+type = "airport"
+name = "SHARANA"
+icao = "OASA"
+display = false
+elevation_feet = "7391"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 7, seconds = 33 }
+longitude = { direction = "E", degrees = 68, minutes = 50, seconds = 19 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "VB"
+easting = "84935"
+northing = "65243"
+
+[airport.frequencies]
+hf = "4.175"
+fm = "39.250"
+vhf = "118.300"
+uhf = "250.450"
+
+[[airport.runways]]
+elevation_feet = "7391"
+length_feet = "4046"
+primary = { name = "14", heading = "139" }
+secondary = { name = "32", heading = "319" }
+
+# SHINDAND
+
+[[airport]]
+type = "airport"
+name = "SHINDAND"
+icao = "OASD"
+display = true
+elevation_feet = "3716"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 23, seconds = 34 }
+longitude = { direction = "E", degrees = 62, minutes = 15, seconds = 40 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MS"
+easting = "31278"
+northing = "95062"
+
+[airport.navaids]
+tacan = "48X"
+
+[airport.frequencies]
+hf = "3.800"
+fm = "38.500"
+vhf = "134.750"
+uhf = "265.650"
+
+[[airport.runways]]
+elevation_feet = "3716"
+length_feet = "7033"
+primary = { name = "18", heading = "179" }
+secondary = { name = "36", heading = "359" }
+
+# SHINDAND HELIPORT
+
+[[airport]]
+type = "airport"
+name = "SHINDAND HELIPORT"
+display = true
+elevation_feet = "3799"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 24, seconds = 28 }
+longitude = { direction = "E", degrees = 62, minutes = 16, seconds = 6 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "MS"
+easting = "31966"
+northing = "96739"
+
+[airport.navaids]
+adf = "570.00"
+fm = "54.90"
+
+[airport.frequencies]
+hf = "3.925"
+fm = "38.750"
+vhf = "121.500"
+uhf = "344.000"
+
+[[airport.runways]]
+elevation_feet = "3799"
+length_feet = "688"
+primary = { name = "18", heading = "179" }
+secondary = { name = "36", heading = "359" }
+
+# TARINKOT
+
+[[airport]]
+type = "airport"
+name = "TARINKOT"
+icao = "OATN"
+display = false
+elevation_feet = "4374"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 36, seconds = 18 }
+longitude = { direction = "E", degrees = 65, minutes = 51, seconds = 51 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QS"
+easting = "68797"
+northing = "11132"
+
+[airport.frequencies]
+hf = "4.075"
+fm = "39.050"
+vhf = "128.000"
+uhf = "250.400"
+
+[[airport.runways]]
+elevation_feet = "4374"
+length_feet = "5904"
+primary = { name = "12", heading = "120" }
+secondary = { name = "30", heading = "300" }
+
+# URGOON HELIPORT
+
+[[airport]]
+type = "airport"
+name = "URGOON HELIPORT"
+display = false
+elevation_feet = "7493"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 56, seconds = 15 }
+longitude = { direction = "E", degrees = 69, minutes = 9, seconds = 6 }
+
+[airport.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "WB"
+easting = "14185"
+northing = "44366"
+
+[airport.frequencies]
+hf = "4.150"
+fm = "39.200"
+vhf = "118.250"
+uhf = "250.250"
+
+[[airport.runways]]
+elevation_feet = "7493"
+length_feet = "1097"
+primary = { name = "09", heading = "089" }
+secondary = { name = "27", heading = "269" }
+
+# ZARANJ
+
+[[airport]]
+type = "airport"
+name = "ZARANJ"
+icao = "OAZJ"
+display = true
+elevation_feet = "1608"
+
+[airport.coordinates.dms]
+latitude = { direction = "N", degrees = 30, minutes = 58, seconds = 22 }
+longitude = { direction = "E", degrees = 61, minutes = 51, seconds = 57 }
+
+[airport.coordinates.mgrs]
+zone_number = "41"
+zone_band = "R"
+grid = "LQ"
+easting = "91684"
+northing = "27134"
+
+[airport.frequencies]
+hf = "4.425"
+fm = "39.750"
+vhf = "118.500"
+uhf = "250.600"
+
+[[airport.runways]]
+elevation_feet = "1608"
+length_feet = "5176"
+primary = { name = "01", heading = "343" }
+secondary = { name = "19", heading = "163" }

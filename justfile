@@ -30,29 +30,48 @@ fetch-map:
     set -euo pipefail
     ./scripts/fetch-map-data.sh --force --verbose {{ quote(map_url) }}
 
-# Rewrite the FARP entries in locations.toml from live map data
+# Rewrite the parts of the data files that the live map feed owns
 update-data: fetch-map
     #!/usr/bin/env bash
     set -euo pipefail
-    ./scripts/update_locations.py --verbose
+    ./scripts/update_farps.py --verbose
+    ./scripts/update_airports.py --verbose
 
 # Show what live map data would change, without writing anything
 preview-data: fetch-map
     #!/usr/bin/env bash
     set -euo pipefail
-    ./scripts/update_locations.py --dry-run --verbose
+    ./scripts/update_farps.py --dry-run --verbose
+    ./scripts/update_airports.py --dry-run --verbose
 
-# Run the generator against the test fixture, without writing anything
+# Run the generators against the test fixture, without writing anything
 test:
     #!/usr/bin/env bash
     set -euo pipefail
-    ./scripts/update_locations.py --map-data tests/fixtures/map.json --dry-run --verbose
+    ./scripts/update_farps.py --map-data tests/fixtures/map.json --dry-run --verbose
+    ./scripts/update_airports.py --map-data tests/fixtures/map.json --dry-run --verbose
+
+# Rebuild airports.toml from a terrain dump taken with dump_airbases_hook.lua
+import-airports dump:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    ./scripts/import_airports.py --verbose {{ quote(dump) }}
 
 # Check the location data for anything missing or inconsistent
 lint:
     #!/usr/bin/env bash
     set -euo pipefail
-    ./scripts/lint_locations.py
+    ./scripts/lint_data.py
+
+# Build a DCS Route Tool preset with every FARP on it
+route preset_file="":
+    #!/usr/bin/env bash
+    set -euo pipefail
+    args=(--verbose)
+    if [[ -n "{{ preset_file }}" ]]; then
+        args+=(--merge-into "{{ preset_file }}")
+    fi
+    ./scripts/build_route.py "${args[@]}"
 
 # Build the kneeboard pages into build/
 build:
@@ -116,16 +135,19 @@ release-notes:
     set -euo pipefail
 
     commits="$(mktemp)"
-    previous_data="$(mktemp)"
-    trap 'rm -f "${commits}" "${previous_data}"' EXIT
+    previous_data="$(mktemp -d)"
+    trap 'rm -rf "${commits}" "${previous_data}"' EXIT
 
     previous="$(git tag --list 'v*' --sort=-v:refname | head -n 1)"
-    args=(--current data/locations.toml --commits "${commits}")
+    args=(--current data/farps.toml data/airports.toml --commits "${commits}")
     if [[ -n "${previous}" ]]; then
         git log --no-merges --pretty=format:'%s' "${previous}..HEAD" > "${commits}"
-        if git show "${previous}:data/locations.toml" > "${previous_data}" 2>/dev/null; then
-            args+=(--previous "${previous_data}" --previous-tag "${previous}")
-        fi
+        mkdir -p "${previous_data}"
+        for file in farps airports; do
+            git show "${previous}:data/${file}.toml" > "${previous_data}/${file}.toml" 2>/dev/null || true
+        done
+        args+=(--previous "${previous_data}/farps.toml" "${previous_data}/airports.toml"
+               --previous-tag "${previous}")
     fi
     ./scripts/release_notes.py "${args[@]}"
 

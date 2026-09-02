@@ -6,5 +6,7 @@ context:
     url: data/config.toml
   frequencies:
     url: data/frequencies.toml
-  locations:
-    url: data/locations.toml
+  farps:
+    url: data/farps.toml
+  airports:
+    url: data/airports.toml

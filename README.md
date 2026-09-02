@@ -17,9 +17,14 @@ own. Airport information is entered by hand.
 pad. The coordinates on the kneeboard are corrected, so they match what you see
 in the cockpit.
 
-**Elevations.** The live map does not report elevation, so it has to be looked up
-in game. A FARP that has just been built may show a blank elevation until someone
-gets round to it.
+**Elevations.** The live map does not report FARP elevation, so it has to be
+looked up in game. A FARP that has just been built may show a blank elevation
+until someone gets round to it. Airport elevations come from the terrain itself.
+
+**Airports.** Only airfields inside the mission's current playable area are
+shown, and that area moves as the campaign does. Runway headings are magnetic,
+and elevations and runway lengths are what the sim models rather than what the
+real-world charts say.
 
 **Short names.** Each FARP has a short name of up to six characters, so it can be
 typed into an aircraft nav system. Most are just the name in capitals. Longer
@@ -44,8 +49,19 @@ Crate counts and FARP status are not on the kneeboard.
 
 ## Generating the data yourself
 
-All kneeboard data lives in `data/locations.toml`. FARP entries are regenerated
-from the live map feed; airport entries are never touched.
+Both data files are generated, from three different sources:
+
+- `data/farps.toml` comes entirely from the live map feed, nightly.
+- `data/airports.toml` comes mostly from a **terrain dump**, taken in game with
+  `scripts/dcs/dump_airbases_hook.lua` and imported with
+  `scripts/import_airports.py`. Re-run that after a DCS patch, not nightly.
+- The nightly job owns exactly two things on airports: `navaids.adf` and
+  `navaids.fm`, from the mission's logistics beacons, and `display`, from
+  whether the airfield is inside the mission's playable boundary polygon.
+
+Because `display` is computed, editing it by hand will not survive the next run.
+An airfield outside the boundary keeps all its data and simply stops appearing
+on the kneeboard.
 
 You will need:
 
@@ -89,8 +105,9 @@ edit.
 ```
 pip install -r scripts/requirements.txt
 ./scripts/fetch-map-data.sh --force <map data url>
-./scripts/update_locations.py
-./scripts/lint_locations.py
+./scripts/update_farps.py
+./scripts/update_airports.py
+./scripts/lint_data.py
 gomplate
 ```
 
@@ -99,14 +116,14 @@ address built in, so pass the feed's url as an argument or set `FARP_MAP_URL`.
 It writes to `build/map.json` and everything else reads that file, so a run can
 always be repeated on exactly the same input.
 
-All the scripts take `--help`. `update_locations.py` also takes `--dry-run` to
-write nothing, `--output` to write elsewhere, `--map-data` to read a different
-file, and `--verbose`. `tests/fixtures/map.json` is hand-built test data rather
+All the scripts take `--help`. `update_farps.py` also takes `--dry-run` to write
+nothing, `--output` to write elsewhere, `--map-data` to read a different file,
+and `--verbose`. `tests/fixtures/map.json` is hand-built test data rather
 than a copy of the live server, so you can exercise the whole pipeline without
 it:
 
 ```
-./scripts/update_locations.py --map-data tests/fixtures/map.json --dry-run
+./scripts/update_farps.py --map-data tests/fixtures/map.json --dry-run
 ```
 
 Its eight FARPs cover every shortname rule, both UTM zones the map spans, and
@@ -124,11 +141,20 @@ and CHARLIE spawn points and against every hand-entered coordinate in the file.
 moves every FARP at once, which will look like every FARP was rebuilt.
 
 Elevation is empty rather than `"0"` for an unsurveyed FARP, because a FARP could
-genuinely sit at 0 ft. `lint_locations.py` fails on an empty one.
+genuinely sit at 0 ft. `lint_data.py` fails on an empty one.
 
 Short names are worked out once and then carried forward, so editing one by hand
 sticks. Clashes are resolved by replacing the last character with a number.
 `SHORTNAME_MAX_LENGTH` is six in both scripts and has to be changed in both.
+
+Airport runway headings are converted from the terrain's true bearings using the
+World Magnetic Model at `DEFAULT_EPOCH`. DCS models its own variation, which may
+differ by a fraction of a degree; that is well inside the precision a heading is
+read to, but it is why the numbers can differ by one from a published chart.
+
+`scripts/locations_toml.py` holds the schema and the writer that both files
+share, which is what lets the linter check a hand-edited airport against the
+same formatting rules the generator follows.
 
 Elevation and short name are the only fields carried forward between runs;
 everything else is rewritten from the feed each time, so nothing else can go
