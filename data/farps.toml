@@ -44,29 +44,6 @@ northing = "73977"
 adf = "900.00"
 fm = "43.30"
 
-# FARP CYLON
-
-[[farp]]
-type = "farp"
-name = "CYLON"
-shortname = "CYLON"
-elevation_feet = "3350"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 34, minutes = 58, seconds = 34 }
-longitude = { direction = "E", degrees = 63, minutes = 20, seconds = 26 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "NU"
-easting = "31093"
-northing = "70436"
-
-[farp.navaids]
-adf = "630.00"
-fm = "52.80"
-
 # FARP EGGERS
 
 [[farp]]
@@ -136,52 +113,6 @@ northing = "52029"
 [farp.navaids]
 adf = "800.00"
 fm = "51.20"
-
-# FARP SENECA
-
-[[farp]]
-type = "farp"
-name = "SENECA"
-shortname = "SENECA"
-elevation_feet = "5840"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 48, seconds = 30 }
-longitude = { direction = "E", degrees = 65, minutes = 7, seconds = 37 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "PV"
-easting = "92178"
-northing = "64769"
-
-[farp.navaids]
-adf = "400.00"
-fm = "65.70"
-
-# FARP SHIELDS
-
-[[farp]]
-type = "farp"
-name = "SHIELDS"
-shortname = "SHILDS"
-elevation_feet = "5269"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 53, seconds = 47 }
-longitude = { direction = "E", degrees = 65, minutes = 53, seconds = 27 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "QV"
-easting = "60919"
-northing = "76316"
-
-[farp.navaids]
-adf = "540.00"
-fm = "41.50"
 
 # FARP VINTOKRYL
 
