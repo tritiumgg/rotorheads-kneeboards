@@ -102,15 +102,19 @@ jobs:
           # The interesting part of a release is which FARPs changed, so diff the
           # data itself. Commit subjects go in as supporting detail.
           if git rev-parse -q --verify "refs/tags/${previous_tag}" >/dev/null; then
-            git show "${previous_tag}:data/locations.toml" > /tmp/previous-locations.toml 2>/dev/null || true
+            mkdir -p /tmp/previous
+            for file in farps airports; do
+              git show "${previous_tag}:data/${file}.toml" > "/tmp/previous/${file}.toml" 2>/dev/null || true
+            done
             git log --no-merges --pretty=format:'%s' "${previous_tag}..HEAD" > /tmp/commits.txt
           else
             : > /tmp/commits.txt
           fi
 
-          notes_args=(--current data/locations.toml --commits /tmp/commits.txt --output /tmp/notes.md)
-          if [[ -s /tmp/previous-locations.toml ]]; then
-            notes_args+=(--previous /tmp/previous-locations.toml --previous-tag "${previous_tag}")
+          notes_args=(--current data/farps.toml data/airports.toml --commits /tmp/commits.txt --output /tmp/notes.md)
+          if [[ -s /tmp/previous/farps.toml || -s /tmp/previous/airports.toml ]]; then
+            notes_args+=(--previous /tmp/previous/farps.toml /tmp/previous/airports.toml
+                         --previous-tag "${previous_tag}")
           fi
           mise exec -- ./scripts/release_notes.py "${notes_args[@]}"
           cat /tmp/notes.md

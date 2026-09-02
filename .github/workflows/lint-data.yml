@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  lint-locations:
+  lint-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: mise exec -- pip install -r scripts/requirements.txt
 
-      - name: Lint locations.toml
+      - name: Lint the data files
         # --annotations surfaces each problem inline on the changed lines in the
         # PR's Files view, on top of the plain output in the job log.
-        run: mise exec -- ./scripts/lint_locations.py data/locations.toml --annotations
+        run: mise exec -- ./scripts/lint_data.py --annotations
