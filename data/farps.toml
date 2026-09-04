@@ -114,6 +114,29 @@ northing = "52029"
 adf = "800.00"
 fm = "51.20"
 
+# FARP PEACEMAKER
+
+[[farp]]
+type = "farp"
+name = "PEACEMAKER"
+shortname = "PECMKR"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 35, minutes = 42, seconds = 25 }
+longitude = { direction = "E", degrees = 66, minutes = 26, seconds = 24 }
+
+[farp.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "TE"
+easting = "68397"
+northing = "54480"
+
+[farp.navaids]
+adf = "270.00"
+fm = "63.70"
+
 # FARP VINTOKRYL
 
 [[farp]]
