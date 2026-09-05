@@ -120,7 +120,7 @@ fm = "51.20"
 type = "farp"
 name = "PEACEMAKER"
 shortname = "PECMKR"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "9501"
 
 [farp.coordinates.dms]
 latitude = { direction = "N", degrees = 35, minutes = 42, seconds = 25 }
