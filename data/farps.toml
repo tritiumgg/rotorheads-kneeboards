@@ -4,6 +4,7 @@
 type = "farp"
 name = "ALOUETTE"
 shortname = "ALOUET"
+callsign = "Bravo"
 elevation_feet = "9305"
 
 [farp.coordinates.dms]
@@ -167,7 +168,6 @@ fm = "62.00"
 type = "farp"
 name = "WHIRLWIND"
 shortname = "WRLWND"
-callsign = "Bravo"
 elevation_feet = "7863"
 
 [farp.coordinates.dms]
