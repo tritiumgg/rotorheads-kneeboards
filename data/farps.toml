@@ -138,6 +138,29 @@ northing = "54480"
 adf = "270.00"
 fm = "63.70"
 
+# FARP PHANTOM
+
+[[farp]]
+type = "farp"
+name = "PHANTOM"
+shortname = "PHANTM"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 35, seconds = 5 }
+longitude = { direction = "E", degrees = 65, minutes = 3, seconds = 0 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "PT"
+easting = "90246"
+northing = "18000"
+
+[farp.navaids]
+adf = "810.00"
+fm = "34.10"
+
 # FARP VINTOKRYL
 
 [[farp]]
