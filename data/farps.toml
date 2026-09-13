@@ -99,7 +99,7 @@ fm = "51.20"
 type = "farp"
 name = "PHANTOM"
 shortname = "PHANTM"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "8040"
 
 [farp.coordinates.dms]
 latitude = { direction = "N", degrees = 33, minutes = 35, seconds = 5 }
