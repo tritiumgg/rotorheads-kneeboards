@@ -4,7 +4,6 @@
 type = "farp"
 name = "ALOUETTE"
 shortname = "ALOUET"
-callsign = "Bravo"
 elevation_feet = "9305"
 
 [farp.coordinates.dms]
@@ -21,6 +20,29 @@ northing = "63426"
 [farp.navaids]
 adf = "480.00"
 fm = "45.30"
+
+# FARP CHEYENNE
+
+[[farp]]
+type = "farp"
+name = "CHEYENNE"
+shortname = "CHEYEN"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 13, seconds = 21 }
+longitude = { direction = "E", degrees = 65, minutes = 32, seconds = 35 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QS"
+easting = "36990"
+northing = "78840"
+
+[farp.navaids]
+adf = "540.00"
+fm = "41.30"
 
 # FARP EGGERS
 
@@ -93,12 +115,36 @@ northing = "52029"
 adf = "800.00"
 fm = "51.20"
 
+# FARP OSPREY
+
+[[farp]]
+type = "farp"
+name = "OSPREY"
+shortname = "OSPREY"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 32, seconds = 6 }
+longitude = { direction = "E", degrees = 65, minutes = 35, seconds = 55 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QT"
+easting = "41317"
+northing = "13629"
+
+[farp.navaids]
+adf = "310.00"
+fm = "71.40"
+
 # FARP PHANTOM
 
 [[farp]]
 type = "farp"
 name = "PHANTOM"
 shortname = "PHANTM"
+callsign = "Bravo"
 elevation_feet = "8040"
 
 [farp.coordinates.dms]
