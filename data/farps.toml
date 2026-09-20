@@ -4,7 +4,6 @@
 type = "farp"
 name = "ALOUETTE"
 shortname = "ALOUET"
-callsign = "Bravo"
 elevation_feet = "9305"
 
 [farp.coordinates.dms]
@@ -21,6 +20,75 @@ northing = "63426"
 [farp.navaids]
 adf = "480.00"
 fm = "45.30"
+
+# FARP CHEYENNE
+
+[[farp]]
+type = "farp"
+name = "CHEYENNE"
+shortname = "CHEYEN"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 13, seconds = 21 }
+longitude = { direction = "E", degrees = 65, minutes = 32, seconds = 35 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QS"
+easting = "36990"
+northing = "78840"
+
+[farp.navaids]
+adf = "540.00"
+fm = "41.30"
+
+# FARP CHOCTAW
+
+[[farp]]
+type = "farp"
+name = "CHOCTAW"
+shortname = "CHOCTW"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 32, minutes = 36, seconds = 38 }
+longitude = { direction = "E", degrees = 65, minutes = 58, seconds = 12 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QS"
+easting = "78715"
+northing = "12007"
+
+[farp.navaids]
+adf = "560.00"
+fm = "34.70"
+
+# FARP EAGLE
+
+[[farp]]
+type = "farp"
+name = "EAGLE"
+shortname = "EAGLE"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 21, seconds = 0 }
+longitude = { direction = "E", degrees = 66, minutes = 13, seconds = 14 }
+
+[farp.coordinates.mgrs]
+zone_number = "42"
+zone_band = "S"
+grid = "TB"
+easting = "41349"
+northing = "93549"
+
+[farp.navaids]
+adf = "280.00"
+fm = "63.30"
 
 # FARP EGGERS
 
@@ -92,6 +160,30 @@ northing = "52029"
 [farp.navaids]
 adf = "800.00"
 fm = "51.20"
+
+# FARP OSPREY
+
+[[farp]]
+type = "farp"
+name = "OSPREY"
+shortname = "OSPREY"
+callsign = "Bravo"
+elevation_feet = ""  # TODO: survey elevation in-game
+
+[farp.coordinates.dms]
+latitude = { direction = "N", degrees = 33, minutes = 32, seconds = 6 }
+longitude = { direction = "E", degrees = 65, minutes = 35, seconds = 55 }
+
+[farp.coordinates.mgrs]
+zone_number = "41"
+zone_band = "S"
+grid = "QT"
+easting = "41317"
+northing = "13629"
+
+[farp.navaids]
+adf = "310.00"
+fm = "71.40"
 
 # FARP PHANTOM
 
