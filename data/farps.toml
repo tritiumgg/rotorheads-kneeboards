@@ -27,7 +27,7 @@ fm = "45.30"
 type = "farp"
 name = "CHEYENNE"
 shortname = "CHEYEN"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "4469"
 
 [farp.coordinates.dms]
 latitude = { direction = "N", degrees = 33, minutes = 13, seconds = 21 }
@@ -50,7 +50,7 @@ fm = "41.30"
 type = "farp"
 name = "EAGLE"
 shortname = "EAGLE"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "4795"
 
 [farp.coordinates.dms]
 latitude = { direction = "N", degrees = 33, minutes = 21, seconds = 0 }
@@ -145,7 +145,7 @@ type = "farp"
 name = "OSPREY"
 shortname = "OSPREY"
 callsign = "Bravo"
-elevation_feet = ""  # TODO: survey elevation in-game
+elevation_feet = "4869"
 
 [farp.coordinates.dms]
 latitude = { direction = "N", degrees = 33, minutes = 32, seconds = 6 }
