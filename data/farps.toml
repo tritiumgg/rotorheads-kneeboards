@@ -50,6 +50,7 @@ fm = "41.30"
 type = "farp"
 name = "EAGLE"
 shortname = "EAGLE"
+callsign = "Alpha"
 elevation_feet = "4795"
 
 [farp.coordinates.dms]
@@ -120,7 +121,6 @@ fm = "51.00"
 type = "farp"
 name = "LIBERATOR"
 shortname = "LIBRTR"
-callsign = "Alpha"
 elevation_feet = "8756"
 
 [farp.coordinates.dms]
