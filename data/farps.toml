@@ -50,6 +50,7 @@ fm = "41.30"
 type = "farp"
 name = "EAGLE"
 shortname = "EAGLE"
+callsign = "Alpha"
 elevation_feet = "4795"
 
 [farp.coordinates.dms]
@@ -113,30 +114,6 @@ northing = "37264"
 [farp.navaids]
 adf = "790.00"
 fm = "51.00"
-
-# FARP LIBERATOR
-
-[[farp]]
-type = "farp"
-name = "LIBERATOR"
-shortname = "LIBRTR"
-callsign = "Alpha"
-elevation_feet = "8756"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 40, seconds = 44 }
-longitude = { direction = "E", degrees = 65, minutes = 50, seconds = 1 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "QV"
-easting = "56455"
-northing = "52029"
-
-[farp.navaids]
-adf = "800.00"
-fm = "51.20"
 
 # FARP OSPREY
 
