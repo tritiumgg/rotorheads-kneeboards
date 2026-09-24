@@ -857,7 +857,7 @@ secondary = { name = "36", heading = "359" }
 type = "airport"
 name = "TARINKOT"
 icao = "OATN"
-display = false
+display = true
 elevation_feet = "4374"
 
 [airport.coordinates.dms]
