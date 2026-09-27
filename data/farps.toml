@@ -1,32 +1,10 @@
-# FARP ALOUETTE
-
-[[farp]]
-type = "farp"
-name = "ALOUETTE"
-shortname = "ALOUET"
-elevation_feet = "9305"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 59, seconds = 32 }
-longitude = { direction = "E", degrees = 65, minutes = 10, seconds = 44 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "QT"
-easting = "01261"
-northing = "63426"
-
-[farp.navaids]
-adf = "480.00"
-fm = "45.30"
-
 # FARP CHEYENNE
 
 [[farp]]
 type = "farp"
 name = "CHEYENNE"
 shortname = "CHEYEN"
+callsign = "Bravo"
 elevation_feet = "4469"
 
 [farp.coordinates.dms]
@@ -50,6 +28,7 @@ fm = "41.30"
 type = "farp"
 name = "EAGLE"
 shortname = "EAGLE"
+callsign = "Alpha"
 elevation_feet = "4795"
 
 [farp.coordinates.dms]
@@ -114,29 +93,28 @@ northing = "37264"
 adf = "790.00"
 fm = "51.00"
 
-# FARP LIBERATOR
+# FARP NOMAD
 
 [[farp]]
 type = "farp"
-name = "LIBERATOR"
-shortname = "LIBRTR"
-callsign = "Alpha"
-elevation_feet = "8756"
+name = "NOMAD"
+shortname = "NOMAD"
+elevation_feet = ""  # TODO: survey elevation in-game
 
 [farp.coordinates.dms]
-latitude = { direction = "N", degrees = 35, minutes = 40, seconds = 44 }
-longitude = { direction = "E", degrees = 65, minutes = 50, seconds = 1 }
+latitude = { direction = "N", degrees = 32, minutes = 37, seconds = 23 }
+longitude = { direction = "E", degrees = 65, minutes = 9, seconds = 21 }
 
 [farp.coordinates.mgrs]
 zone_number = "41"
 zone_band = "S"
-grid = "QV"
-easting = "56455"
-northing = "52029"
+grid = "QS"
+easting = "02257"
+northing = "11563"
 
 [farp.navaids]
-adf = "800.00"
-fm = "51.20"
+adf = "710.00"
+fm = "51.80"
 
 # FARP OSPREY
 
@@ -144,7 +122,6 @@ fm = "51.20"
 type = "farp"
 name = "OSPREY"
 shortname = "OSPREY"
-callsign = "Bravo"
 elevation_feet = "4869"
 
 [farp.coordinates.dms]
@@ -161,29 +138,6 @@ northing = "13629"
 [farp.navaids]
 adf = "310.00"
 fm = "71.40"
-
-# FARP PHANTOM
-
-[[farp]]
-type = "farp"
-name = "PHANTOM"
-shortname = "PHANTM"
-elevation_feet = "8040"
-
-[farp.coordinates.dms]
-latitude = { direction = "N", degrees = 33, minutes = 35, seconds = 5 }
-longitude = { direction = "E", degrees = 65, minutes = 3, seconds = 0 }
-
-[farp.coordinates.mgrs]
-zone_number = "41"
-zone_band = "S"
-grid = "PT"
-easting = "90246"
-northing = "18000"
-
-[farp.navaids]
-adf = "810.00"
-fm = "34.10"
 
 # FARP WHIRLWIND
 
