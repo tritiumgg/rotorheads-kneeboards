@@ -92,10 +92,6 @@ grid = "PQ"
 easting = "29530"
 northing = "92454"
 
-[airport.navaids]
-adf = "370.00"
-fm = "42.90"
-
 [airport.frequencies]
 hf = "4.050"
 fm = "39.000"
@@ -235,8 +231,6 @@ northing = "40281"
 
 [airport.navaids]
 tacan = "46X"
-adf = "210.00"
-fm = "75.30"
 
 [airport.frequencies]
 hf = "3.775"
@@ -269,10 +263,6 @@ zone_band = "S"
 grid = "MR"
 easting = "21698"
 northing = "81012"
-
-[airport.navaids]
-adf = "620.00"
-fm = "63.20"
 
 [airport.frequencies]
 hf = "3.975"
@@ -697,10 +687,6 @@ grid = "MQ"
 easting = "10296"
 northing = "25934"
 
-[airport.navaids]
-adf = "260.00"
-fm = "34.20"
-
 [airport.frequencies]
 hf = "3.850"
 fm = "38.600"
@@ -835,10 +821,6 @@ grid = "MS"
 easting = "31966"
 northing = "96739"
 
-[airport.navaids]
-adf = "570.00"
-fm = "54.90"
-
 [airport.frequencies]
 hf = "3.925"
 fm = "38.750"
@@ -857,7 +839,7 @@ secondary = { name = "36", heading = "359" }
 type = "airport"
 name = "TARINKOT"
 icao = "OATN"
-display = false
+display = true
 elevation_feet = "4374"
 
 [airport.coordinates.dms]
